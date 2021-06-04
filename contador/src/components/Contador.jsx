@@ -39,7 +39,7 @@ class Contador extends Component{
 
                 <PassoForm passo={this.state.passo} setPasso={this.setPasso}/>
 
-                <Botoes setInc={this.inc} setDec={this.des} />
+                <Botoes setInc={this.inc} setDec={this.dec} />
             </div>
         )
     }
