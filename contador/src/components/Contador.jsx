@@ -21,7 +21,7 @@ class Contador extends Component{
 
     dec = () => {
         this.setState({
-            numero: this.state.numero + this.state.passo
+            numero: this.state.numero - this.state.passo
         })
     }
 
